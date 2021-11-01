@@ -1,0 +1,145 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#menu {
+    float: right;
+    margin-top: 40px;
+    margin-right: 60px;
+    text-align: right;
+    width: 240px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#menu .title {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#menu ul {
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title a{
+    color: #202020;
+    text-decoration: none;
+}
+
+.title a:hover{
+    color: #474848;
+    text-decoration: none;
+}
+
+#menu li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#menu li a {
+    display: inline-block;
+    color: #474848;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #202020;
+}
+
+.content {
+    margin-top: 120px;
+    float: left;
+    width: 800px;
+    display: inline-table;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h3.category_title {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h4.category_title {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.category_title {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+.content_essentials li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.content h1, .content h2, .content h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.content p.pg{
+    margin-left: 20px;
+}
+
+
+.content li {
+    margin-bottom: 0.7em;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: #202020;
+}
+
+a:hover {
+    color: #474848;
+}
+
+#left {
+    height: 1px;
+    float: left;
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#mind li, #interests li, #self li, #inspiration li, #essentials li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
